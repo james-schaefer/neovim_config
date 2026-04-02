@@ -4,6 +4,12 @@
 
 vim.g.mapleader = ' '
 
+-- Plugins (built-in vim.pack manager, :h vim.pack)
+-- https://github.com/coder/claudecode.nvim
+vim.pack.add({
+  'https://github.com/coder/claudecode.nvim',
+})
+
 local o = vim.opt
 o.number = false
 o.tabstop = 2
